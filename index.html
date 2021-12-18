@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Portfolio</title>
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+    </head>
+
+    <body>
+        <main>
+          <div class="arrow">
+            <a href="#" title="Back to Top"><span class="fas fa-angle-up"></span></a>
+         </div>
+
+            <header>
+              <div class="brand">
+                <img src="./img/logo.png" alt="" />
+              </div>
+
+              <div class="menu">
+                <div class="btn">
+                  <i class="fas fa-times close-btn"></i>
+                </div>
+                  <a href="#home">Home</a>
+                  <a href="#portfolio">Portfolio</a>
+                  <a href="#education">Education</a>
+                  <a href="#about">About</a>
+                  <a href="#contact">Contacts</a>
+              </div>
+
+              <div class="btn">
+                <i class="fas fa-bars menu-btn"></i>
+              </div>
+            </header>
+
+            <section class="home section" id="home">
+              <div class="overlay overlay-lg">
+                <img src="./img/shapes/overlay.png" class="lines" alt="" />
+                <img src="./img/shapes/overlay.png" class="lines2" alt="" />
+                <img src="./img/shapes/overlay.png" class="lines3" alt="" />
+              </div>
+
+              <div class="header-content">
+                <div class="container grid-2">
+                    <div class="column-1 image">
+                        <img src="./img/myphoto.png" class="img-element z-index" alt="" />
+                    </div>
+
+                    <div class="column-2">
+                        <h1 class="header-title">Zyrah Krizelle</h1>
+                        <p class="text">
+                        Hello, I am an Information Technology Student!
+                        </p>
+                        <a href="#about" class="btn">Read More</a>
+                    </div>
+      
+                    </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="portfolio section" id="portfolio">
+              <div class="overlay overlay-lg">
+                <img src="./img/shapes/overlay.png" class="lines" alt="" />
+                <img src="./img/shapes/overlay.png" class="lines2" alt="" />
+              </div>
+
+              <div class="container">
+                <div class="section-header">
+                  <h3 class="title" data-title="These are my Projects">Portfolio</h3>
+                </div>
+
+                <div class="section-body slides">
+                  <div class="slideshow-container">
+                    <img
+                    src="./img/shapes/points3.png"
+                    class="points points1 points-sq"
+                    alt=""
+                    />
+                    
+                    <img
+                    src="./img/shapes/points3.png"
+                    class="points points2 points-sq"
+                    alt=""
+                    />
+
+                    <div class="mySlides fade z-index">
+                      <img src="./img/portfolio/port1.png" style="width:100%">
+                      <div class="caption"><h2><a href="https://hunnybunch.000webhostapp.com/" style="color: #2e00b8">HELLO CUPCAKE WEBSITE (2019)</a></h2>
+                        This website is made for our last term project in our subject INTECH 2100 (Web Design and Multimedia) - Lecture. This is made with HTML, CSS and JavaScript.</div>
+                    </div>
+            
+                    <div class="mySlides fade z-index">
+                      <img src="./img/portfolio/port2.png" style="width:100%">
+                      <div class="caption"><h2 style="color: #2e00b8">Employee Position Tracker (2019)</h2>The Employee Position Tracker is an application that can track the 
+                        changes of the employee's position. It can generate reports based on different variables. It is made using Java platform and MySQL database.</div>
+                    </div>
+            
+                    <div class="mySlides fade z-index">
+                      <img src="./img/portfolio/port3.png" style="width:100%">
+                      <div class="caption"><h2 style="color: #2e00b8">CLSU Run (2019)</h2>CLSU Run is a game that was made for our final project in our subject Object Oriented 
+                        Programming. It is inspired by the Dinosaur T-Rex Game in Google. It is made using Java.</div>
+                    </div>
+
+                    <div class="mySlides fade z-index">
+                      <img src="./img/portfolio/port4.png" style="width:100%">
+                      <div class="caption"><h2><a href="http://elitwebsite.000webhostapp.com/" style="color: #2e00b8">Elit Website (2021)</a></h2>Elit Website is made for our project in Advance Web Developing. It contains movie blogs and recommendations. 
+                        It is made using a bit of different languages like HTML, CSS, JavaScript and PHP. MySQL is also used for its database.</div>
+                    </div>
+            
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span>
+                      <span class="dot" onclick="currentSlide(2)"></span>
+                      <span class="dot" onclick="currentSlide(3)"></span>
+                      <span class="dot" onclick="currentSlide(4)"></span>
+                    </div>
+                  </div>
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+              </div>
+            </section>
+
+            <section class="education section" id="education">
+              <div class="container">
+                <div class="overlay overlay-lg">
+                  <img src="./img/shapes/overlay.png" class="lines" alt="" />
+                  <img src="./img/shapes/overlay.png" class="lines2" alt="" />
+                </div>
+
+                <div class="section-header">
+                  <h3 class="title" data-title="Where did I study">Educational Background</h3>
+                </div>
+
+                <div class="cards">
+                  <div class="card-wrap">
+                    <img
+                      src="./img/shapes/points2.png"
+                      class="points points1 points-sq"
+                      alt=""
+                    />
+                    <div class="card" data-card="UI/UX">
+                      <div class="card-content z-index">
+                        <img src="./img/clsu.png" class="icon" alt="" />
+                        <h3 class="title-sm">Central Luzon State University</h3>
+                        <p class="text">
+                          *TERTIARY LEVEL*<br>Bachelor of Sciene in Information Technology<br>[2018 - Present]
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="card-wrap">
+                    <img
+                      src="./img/shapes/points2.png"
+                      class="points points2 points-sq"
+                      alt=""
+                    />
+                    <div class="card" data-card="Code">
+                      <div class="card-content z-index">
+                        <img src="./img/psu.png" class="icon" alt="" />
+                        <h3 class="title-sm">Pangasinan State University - Urdaneta Campus</h3>
+                        <p class="text">
+                          *SENIOR HIGH SCHOOL*<br>Academic Track<br>STEM Strand<br>[2016 - 2018]
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="about section" id="about">
+              <div class="container">
+                <div class="overlay overlay-lg">
+                  <img src="./img/shapes/overlay.png" class="lines" alt="" />
+                  <img src="./img/shapes/overlay.png" class="lines2" alt="" />
+                </div>
+
+                <div class="section-header">
+                  <h3 class="title" data-title="Who Am I">About me</h3>
+                </div>
+      
+                <div class="section-body grid-2">
+                  <div class="column-1 image">
+                    <img
+                    src="./img/shapes/points2.png"
+                    class="points points2"
+                    alt=""
+                    />
+                    <img src="./img/mypic.png" class="z-index" alt="" />
+                  </div>
+
+                  <div class="column-2">
+                    <h3 class="title-sm">Hello, I'm Zyrah Krizelle S. Abrenica</h3>
+                    <p class="text">
+                      a student of Central Luzon State University 
+                      and currently taking up Bachelor of Science in Information Technology.
+                    </p>
+                    <p class="text">
+                      I chose this course as I was inspired by my cousin who is an IT graduate,
+                       hence here I am a now making my own journey.
+                    </p>
+                    <p class="text">
+                      Listed below are some of the programming and scripting languages that I know and have already tried 
+                      but still exploring as my journey of learning is still on going. 
+                    </p>
+                  </div>
+                </div>
+
+                <div class="wrapper z-index">
+                  <div class="circlecard">
+                    <div class="circle">
+                      <div class="bar"></div>
+                      <div class="box"><span></span></div>
+                    </div>
+                    <div class="text">HTML</div>
+                  </div>
+                  <div class="circlecard css">
+                    <div class="circle">
+                      <div class="bar"></div>
+                      <div class="box"><span></span></div>
+                    </div>
+                    <div class="text">CSS</div>
+                  </div>
+                  <div class="circlecard js">
+                    <div class="circle">
+                      <div class="bar"></div>
+                      <div class="box"><span></span></div>
+                    </div>
+                    <div class="text">JavaScript</div>
+                  </div>
+                  <div class="circlecard c">
+                    <div class="circle">
+                      <div class="bar"></div>
+                      <div class="box"><span></span></div>
+                    </div>
+                    <div class="text">C</div>
+                  </div>
+                  <div class="circlecard java">
+                    <div class="circle">
+                      <div class="bar"></div>
+                      <div class="box"><span></span></div>
+                    </div>
+                    <div class="text">Java</div>
+                  </div>
+                  <div class="circlecard php">
+                    <div class="circle">
+                      <div class="bar"></div>
+                      <div class="box"><span></span></div>
+                    </div>
+                    <div class="text">PHP</div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="contact section" id="contact">
+              <div class="container">
+                <div class="overlay overlay-lg">
+                  <img src="./img/shapes/overlay.png" class="lines" alt="" />
+                  <img src="./img/shapes/overlay.png" class="lines2" alt="" />
+                </div>
+
+                <div class="contact-box z-index">
+                  <div class="contact-info">
+                    <h3 class="title">Get in touch</h3>
+                    <p class="text">
+                      Feel free to reach out. You can find or get in touch with me through my contact information that are listed below: 
+                    </p>
+                    <div class="information-wrap">
+                      <div class="information">
+                        <div class="contact-icon">
+                          <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <p class="info-text">Barraca, Villasis, Pangasinan 2427</p>
+                      </div>
+      
+                      <div class="information info-links">
+                        <div class="contact-icon">
+                          <i class="fas fa-paper-plane"></i>
+                        </div>
+                        <p class="info-text">zeeabrenica@gmail.com</p>
+                      </div>
+      
+                      <div class="information">
+                        <div class="contact-icon">
+                          <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <p class="info-text">0917-122-2779</p>
+                      </div>
+
+                      <div class="information">
+                        <div class="contact-icon">
+                          <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <p class="info-text"><a href="https://www.facebook.com/zyrahkrizelle/">Zyrah Krizelle Sales Abrenica</a></p>
+                      </div>
+                      <div class="information">
+                        <div class="contact-icon">
+                          <i class="fab fa-instagram"></i>
+                        </div>
+                        <p class="info-text"><a href="https://www.instagram.com/zyrahabrenica/">@zyrahabrenica</a></p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="contact-form">
+                    <h3 class="title">Contact me</h3>
+                    <p class="text"> Leave a message or send your inquiries through e-mail. We will get back to you as soon as possible.</p>
+                    <form action="mail.php" method="POST">
+                      <label for="name">Name:</label>
+                      <input type="text" name="name" id="name">
+                      <label for="email">Email:</label>
+                      <input type="email" name="email" id="email">
+                      <label for="subject">Subject:</label>
+                      <input type="text" name="subject" id="subject">
+                      <label for="message">Message</label>
+                      <textarea name="message" cols="30" rows="10"></textarea>
+                      <input type="submit" value="Send">
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <footer class="footer">
+              <div class="bottom-footer">
+                <div class="copyright">
+                  <p class="text">
+                    Copyright&copy;2021
+                  </p>
+                  <p class="text">
+                    All rights reserved | Made by Zyrah Abrenica
+                  </p>
+                </div>
+              </div>
+            </footer>
+        </main>
+
+
+        <script>
+          let options = {
+            startAngle: -1.55,
+            size: 150,
+            value: 0.80,
+            fill: {gradient: ['#a445b2', '#fa4299']}
+          }
+          $(".circle .bar").circleProgress(options).on('circle-animation-progress',
+          function(event, progress, stepValue){
+            $(this).parent().find("span").text(String(stepValue.toFixed(2).substr(2)) + "%");
+          });
+          $(".css .bar").circleProgress({
+            value: 0.75
+          });
+          $(".js .bar").circleProgress({
+            value: 0.60
+          });
+          $(".c .bar").circleProgress({
+            value: 0.70
+          });
+          $(".java .bar").circleProgress({
+            value: 0.65
+          });
+          $(".php .bar").circleProgress({
+            value: 0.60
+          });
+        </script>
+    
+        <script type="text/javascript">
+          //javascript for navigation bar effect on scroll
+          window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle('sticky', window.scrollY > 0);
+          });
+      
+          //javascript for responsive navigation sidebar menu
+          var menu = document.querySelector('.menu');
+          var menuBtn = document.querySelector('.menu-btn');
+          var closeBtn = document.querySelector('.close-btn');
+      
+          menuBtn.addEventListener("click", () => {
+            menu.classList.add('active');
+          });
+      
+          closeBtn.addEventListener("click", () => {
+            menu.classList.remove('active');
+          });
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="./js/isotope.pkgd.min.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="./js/app.js"></script>
+    </body>
+</html>
